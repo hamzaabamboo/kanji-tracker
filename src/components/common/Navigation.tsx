@@ -1,7 +1,7 @@
 "use client";
 
 import { getPath } from "@/utils/getPath";
-import { HamburgerIcon, InfoIcon, SettingsIcon } from "@chakra-ui/icons";
+import { InfoIcon, SettingsIcon } from "@chakra-ui/icons";
 import { Box, HStack, Link } from "@chakra-ui/react";
 import { usePathname } from "next/navigation";
 
@@ -27,7 +27,7 @@ export const Navigation = () => {
         fontSize="xl"
       >
         <Box>
-          <HamburgerIcon aria-label="all" />
+          常用漢字
         </Box>
       </Link>
       <Link
