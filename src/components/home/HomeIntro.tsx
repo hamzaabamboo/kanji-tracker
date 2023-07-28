@@ -14,7 +14,7 @@ export const HomeIntro = () => {
       <Text>
         Track kanjis you know
       </Text>
-      <Text>How to use: Click the kanji you know, See how far you've progressed.</Text>
+      <Text>How to use: Click the kanji you know, See how far you&apos;ve progressed.</Text>
     </Stack>
   );
 };
